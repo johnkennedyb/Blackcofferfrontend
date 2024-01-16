@@ -1,0 +1,98 @@
+/* login.css */
+
+body.login-page {
+  background-image: url('../public/tech.jpg');
+  background-size: cover;
+  position: relative;
+  z-index: 1;
+}
+
+body.login-page::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Adjust the overlay color and opacity */
+  z-index: -1; /* Place overlay behind the content */
+}
+
+.login-container {
+  position: relative;
+  max-width: 300px;
+  margin: auto; /* Center the container horizontally */
+  padding: 20px;
+  border: 1px solid #ffffff;
+  border-radius: 0px;
+  box-shadow: 0 0 10px rgba(223, 223, 223, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
+  padding-bottom: 50px;
+  left: 0;
+  right: 0px;
+  margin-right: 0px;
+  padding-top: 170px;
+  padding-bottom: 350px;
+  margin-top: 0px;
+  background-color: #fffffff8;
+  z-index: 1;
+}
+
+
+/* Responsive styles */
+@media (max-width: 600px) {
+  .login-container {
+    padding-top: 100px; /* Adjust for smaller screens */
+    padding-bottom: 150px; /* Adjust for smaller screens */
+    margin-top: 50px; /* Adjust for smaller screens */
+  }
+
+  /* Center on smaller screens */
+  .login-container {
+    
+        margin-right: 12px;
+
+  }
+
+ 
+}
+
+
+
+.login-container h2 {
+  margin-bottom: 20px;
+}
+
+.login-container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.login-container label {
+  margin-bottom: 10px;
+}
+
+.login-container input {
+  padding: 8px;
+  margin-bottom: 10px;
+}
+
+.login-container button {
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.login-container button:hover {
+  background-color: #0056b3;
+}
+
+  
+  
