@@ -10,7 +10,7 @@ body.login-page {
   position: relative;
   max-width: 300px;
   margin: auto; /* Center the container horizontally */
-  margin-top: 10%; /* Adjust the margin for vertical centering */
+  margin-top: 13%; /* Adjust the margin for vertical centering */
   padding: 30px 30px 30px 30px;
   border: 1px solid #ffffff;
   border-radius: 0px;
