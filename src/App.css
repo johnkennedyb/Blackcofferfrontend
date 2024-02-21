@@ -203,6 +203,7 @@ body{
   .charts {
     grid-template-columns: 1fr;
     margin-top: 30px;
+    text-align: center;
   }
 }
 
