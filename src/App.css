@@ -205,14 +205,10 @@ body{
 
 @media only screen and (max-width: 600px) {
   .charts {
-    display: flex;
-    flex-direction: column;
-    align-items: center; /* Center items horizontally */
+    grid-template-columns: 1fr; /* Change to a single column layout */
+    justify-items: center; /* Center items horizontally */
     height: auto; /* Allow the height to adjust based on content */
-    margin-top: 20px; /* Adjust margin as needed */
   }
-
-  
 }
 
 /* Extra Small <= 576px */
