@@ -212,10 +212,7 @@ body{
     margin-top: 20px; /* Adjust margin as needed */
   }
 
-  .charts > div {
-    width: 90%; /* Adjust width as needed */
-    margin-bottom: 20px; /* Adjust margin as needed */
-  }
+  
 }
 
 /* Extra Small <= 576px */
