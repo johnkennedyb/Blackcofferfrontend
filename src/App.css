@@ -201,6 +201,8 @@ body{
   }
  .charts {
     grid-template-columns: 1fr;
+       display: flex;
+
     margin-top: 30px;
     text-align: center;
   }
