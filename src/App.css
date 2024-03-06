@@ -200,19 +200,11 @@ body{
     margin-bottom: 0;
   }
  .charts {
-    grid-template-columns: 1fr; /* Change to a single column layout */
-    justify-items: center; /* Center items horizontally */
-    height: auto; /* Allow the height to adjust based on content */
+    grid-template-columns: 1fr;
+    margin-top: 30px;
+    text-align: center;
   }
   
-}
-
-@media only screen and (max-width: 600px) {
-  .charts {
-    grid-template-columns: 1fr; /* Change to a single column layout */
-    justify-items: center; /* Center items horizontally */
-    height: auto; /* Allow the height to adjust based on content */
-  }
 }
 
 /* Extra Small <= 576px */
