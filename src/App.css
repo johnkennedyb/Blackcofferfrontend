@@ -199,7 +199,11 @@ body{
     gap: 10px;
     margin-bottom: 0;
   }
-
+ .charts {
+    grid-template-columns: 1fr; /* Change to a single column layout */
+    justify-items: center; /* Center items horizontally */
+    height: auto; /* Allow the height to adjust based on content */
+  }
   
 }
 
